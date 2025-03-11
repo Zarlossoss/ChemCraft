@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:gray_concrete"
+    },
+    "c": {
+      "item": "chemie_mod:titan_ingot"
+    }
+  },
+  "result": {
+    "item": "chemie_mod:cokeoven",
+    "count": 1
+  }
+}

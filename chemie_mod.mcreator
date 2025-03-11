@@ -700,6 +700,77 @@
         ]
       },
       "path": "~/Metalle/Silber"
+    },
+    {
+      "name": "CokeovenOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cokeoven_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/procedures/CokeovenOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nichtmetalle/Koks"
+    },
+    {
+      "name": "Goutgasfuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goutgasfuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Nichtmetalle/Koks"
+    },
+    {
+      "name": "Cokeovenrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cokeovenrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/cokeovenrecipe.json"
+        ]
+      },
+      "path": "~/Nichtmetalle/Koks"
+    },
+    {
+      "name": "Gasbottlerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasbottlerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/gasbottlerecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

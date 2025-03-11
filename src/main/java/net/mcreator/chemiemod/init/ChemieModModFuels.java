@@ -17,5 +17,7 @@ public class ChemieModModFuels {
 		ItemStack itemstack = event.getItemStack();
 		if (itemstack.getItem() == ChemieModModItems.COKE.get())
 			event.setBurnTime(4800);
+		else if (itemstack.getItem() == ChemieModModItems.COKE.get())
+			event.setBurnTime(3200);
 	}
 }
