@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "chemie_mod:block/cokeoven"
+    },
+    "facing=east": {
+      "model": "chemie_mod:block/cokeoven",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemie_mod:block/cokeoven",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemie_mod:block/cokeoven",
+      "y": 270
     }
   }
 }

@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "chemie_mod:block/chem_table"
+    },
+    "facing=east": {
+      "model": "chemie_mod:block/chem_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemie_mod:block/chem_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemie_mod:block/chem_table",
+      "y": 270
     }
   }
 }

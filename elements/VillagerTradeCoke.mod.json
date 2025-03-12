@@ -10,19 +10,19 @@
         "entries": [
           {
             "price1": {
-              "value": "CUSTOM:UranIngot"
+              "value": "Items.COAL#0"
             },
-            "countPrice1": 1,
+            "countPrice1": 16,
             "price2": {
               "value": ""
             },
             "countPrice2": 1,
             "offer": {
-              "value": "Blocks.EMERALD_BLOCK"
+              "value": "CUSTOM:Coke"
             },
-            "countOffer": 3,
+            "countOffer": 8,
             "level": 1,
-            "maxTrades": 1,
+            "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
           }

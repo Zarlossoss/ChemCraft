@@ -33,7 +33,7 @@
   "entity.minecraft.villager.chemie_mod.custom_villager": "Chemic",
   "item.chemie_mod.titansword": "Titansword",
   "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
-  "gui.chemie_mod.cokeovengui.label_empty1": "}",
+  "gui.chemie_mod.cokeovengui.label_empty1": "} ",
   "painting.chemie_mod.giant_pse.author": "Mendelejew",
   "item.chemie_mod.titan_armor_boots": "Titan Boots",
   "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",

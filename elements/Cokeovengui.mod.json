@@ -120,24 +120,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 187,
-          "y": 82,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_empty",
-          "text": {
-            "fixedValue": "}"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 0,
-          "y": 0,
+          "x": 188,
+          "y": 83,
           "locked": false
         }
       },
@@ -146,14 +130,14 @@
         "data": {
           "name": "label_empty1",
           "text": {
-            "fixedValue": "}"
+            "fixedValue": "} "
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 181,
-          "y": 81,
+          "x": 182,
+          "y": 83,
           "locked": false
         }
       }
