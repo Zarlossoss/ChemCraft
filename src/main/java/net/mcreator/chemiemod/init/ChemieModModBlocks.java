@@ -18,6 +18,7 @@ import net.mcreator.chemiemod.block.NatriumOreBlock;
 import net.mcreator.chemiemod.block.MagnesiumOreBlock;
 import net.mcreator.chemiemod.block.LithiumOreBlock;
 import net.mcreator.chemiemod.block.CokeovenBlock;
+import net.mcreator.chemiemod.block.ChemTableBlock;
 import net.mcreator.chemiemod.block.CalciumOreBlock;
 import net.mcreator.chemiemod.ChemieModMod;
 
@@ -32,6 +33,7 @@ public class ChemieModModBlocks {
 	public static final RegistryObject<Block> CALCIUM_ORE = REGISTRY.register("calcium_ore", () -> new CalciumOreBlock());
 	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
 	public static final RegistryObject<Block> POTASSIUM_ORE = REGISTRY.register("potassium_ore", () -> new PotassiumOreBlock());
+	public static final RegistryObject<Block> CHEM_TABLE = REGISTRY.register("chem_table", () -> new ChemTableBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -66,6 +66,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> POTASSIUM_INGOT = REGISTRY.register("potassium_ingot", () -> new PotassiumIngotItem());
 	public static final RegistryObject<Item> CALCIUM_INGOT = REGISTRY.register("calcium_ingot", () -> new CalciumIngotItem());
 	public static final RegistryObject<Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
+	public static final RegistryObject<Item> CHEM_TABLE = block(ChemieModModBlocks.CHEM_TABLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -91,16 +91,6 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_2025-03-11_155815.png",
-          "use1Xscale": true,
-          "x": 191,
-          "y": 66,
-          "locked": false
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {

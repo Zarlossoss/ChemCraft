@@ -19,9 +19,11 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.chemiemod.world.inventory.CokeovenguiMenu;
+import net.mcreator.chemiemod.procedures.CokeovenOnBlockRightClickedProcedure;
 
 import io.netty.buffer.Unpooled;
 
@@ -51,6 +53,14 @@ public class CokeovenBlock extends Block {
 				}
 			}, pos);
 		}
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

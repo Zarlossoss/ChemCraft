@@ -46,9 +46,6 @@ public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> 
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		guiGraphics.blit(new ResourceLocation("chemie_mod:textures/screens/screenshot_2025-03-11_155815.png"), this.leftPos + 65, this.topPos + 29, 0, 0, 55, 38, 55, 38);
-
 		RenderSystem.disableBlend();
 	}
 

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemie_mod:block/chemtable_bottom",
+    "up": "chemie_mod:block/chemtable_front",
+    "north": "chemie_mod:block/chemtable_top",
+    "east": "chemie_mod:block/chemtable_sides",
+    "south": "chemie_mod:block/chemtable_sides",
+    "west": "chemie_mod:block/chemtable_sides",
+    "particle": "chemie_mod:block/chemtable_bottom"
+  },
+  "render_type": "solid"
+}

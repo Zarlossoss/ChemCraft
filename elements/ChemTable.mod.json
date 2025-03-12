@@ -2,12 +2,12 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "coke_oven_bottom",
-    "textureTop": "coke_oven_top",
-    "textureLeft": "coke_oven_side",
-    "textureFront": "coke_oven_front",
-    "textureRight": "coke_oven_side",
-    "textureBack": "coke_oven_side",
+    "texture": "chemtable_bottom",
+    "textureTop": "chemtable_front",
+    "textureLeft": "chemtable_sides",
+    "textureFront": "chemtable_top",
+    "textureRight": "chemtable_sides",
+    "textureBack": "chemtable_sides",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Cokeoven",
+    "name": "Chem Table",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,11 +42,7 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:ChemCraft"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -84,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -106,8 +102,7 @@
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "Cokeovengui",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -122,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "CokeovenOnBlockRightClicked"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
