@@ -11,13 +11,14 @@ import net.minecraftforge.common.BasicItemListing;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.npc.VillagerProfession;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class ChemieModModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
-		if (event.getType() == ChemieModModVillagerProfessions.CUSTOM_VILLAGER.get()) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.URAN_INGOT.get()),
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(ChemieModModItems.URAN_INGOT.get()),
 
 					new ItemStack(Blocks.EMERALD_BLOCK, 3), 10, 5, 0.05f));
 		}

@@ -31,7 +31,6 @@ import net.mcreator.chemiemod.item.GoutgasItem;
 import net.mcreator.chemiemod.item.GasbottleItem;
 import net.mcreator.chemiemod.item.CokeItem;
 import net.mcreator.chemiemod.item.CalciumIngotItem;
-import net.mcreator.chemiemod.item.BariumIngotItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
@@ -68,8 +67,6 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> CALCIUM_INGOT = REGISTRY.register("calcium_ingot", () -> new CalciumIngotItem());
 	public static final RegistryObject<Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
 	public static final RegistryObject<Item> CHEM_TABLE = block(ChemieModModBlocks.CHEM_TABLE);
-	public static final RegistryObject<Item> BARIUM_INGOT = REGISTRY.register("barium_ingot", () -> new BariumIngotItem());
-	public static final RegistryObject<Item> BARIUM_ORE = block(ChemieModModBlocks.BARIUM_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
