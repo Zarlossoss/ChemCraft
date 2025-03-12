@@ -826,6 +826,18 @@
         "files": []
       },
       "path": "~/Villager"
+    },
+    {
+      "name": "ChemTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chem_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/chem_table_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
