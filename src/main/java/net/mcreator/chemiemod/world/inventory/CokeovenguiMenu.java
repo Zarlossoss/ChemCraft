@@ -77,17 +77,17 @@ public class CokeovenguiMenu extends AbstractContainerMenu implements Supplier<M
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 39, 29) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 41, 29) {
 			private final int slot = 0;
 			private int x = CokeovenguiMenu.this.x;
 			private int y = CokeovenguiMenu.this.y;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 39, 54) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 41, 54) {
 			private final int slot = 1;
 			private int x = CokeovenguiMenu.this.x;
 			private int y = CokeovenguiMenu.this.y;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 135, 29) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 137, 29) {
 			private final int slot = 3;
 			private int x = CokeovenguiMenu.this.x;
 			private int y = CokeovenguiMenu.this.y;
@@ -97,7 +97,7 @@ public class CokeovenguiMenu extends AbstractContainerMenu implements Supplier<M
 				return false;
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 135, 53) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 137, 53) {
 			private final int slot = 4;
 			private int x = CokeovenguiMenu.this.x;
 			private int y = CokeovenguiMenu.this.y;
@@ -107,16 +107,16 @@ public class CokeovenguiMenu extends AbstractContainerMenu implements Supplier<M
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 14, 41) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 16, 41) {
 			private final int slot = 2;
 			private int x = CokeovenguiMenu.this.x;
 			private int y = CokeovenguiMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 2 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, 2 + 8 + si * 18, 0 + 142));
 	}
 
 	@Override

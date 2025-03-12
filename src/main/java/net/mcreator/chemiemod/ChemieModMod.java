@@ -23,6 +23,7 @@ import net.mcreator.chemiemod.init.ChemieModModPaintings;
 import net.mcreator.chemiemod.init.ChemieModModMenus;
 import net.mcreator.chemiemod.init.ChemieModModItems;
 import net.mcreator.chemiemod.init.ChemieModModBlocks;
+import net.mcreator.chemiemod.init.ChemieModModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,7 +46,7 @@ public class ChemieModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ChemieModModBlocks.REGISTRY.register(bus);
-
+		ChemieModModBlockEntities.REGISTRY.register(bus);
 		ChemieModModItems.REGISTRY.register(bus);
 
 		ChemieModModTabs.REGISTRY.register(bus);
