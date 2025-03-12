@@ -777,10 +777,10 @@
       "registry_name": "chem_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/block/ChemTableBlock.java",
           "src/main/resources/data/chemie_mod/loot_tables/blocks/chem_table.json",
-          "src/main/resources/assets/chemie_mod/models/block/chem_table.json",
           "src/main/resources/assets/chemie_mod/models/item/chem_table.json",
+          "src/main/resources/assets/chemie_mod/models/block/chem_table.json",
+          "src/main/java/net/mcreator/chemiemod/block/ChemTableBlock.java",
           "src/main/resources/assets/chemie_mod/blockstates/chem_table.json"
         ]
       }
@@ -826,6 +826,18 @@
         "files": []
       },
       "path": "~/Villager"
+    },
+    {
+      "name": "ChemTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chem_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/chem_table_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -4,24 +4,21 @@
   "pattern": [
     "aaa",
     "bcb",
-    "ddd"
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_ingot"
+      "item": "chemie_mod:titan_ingot"
     },
     "b": {
-      "item": "minecraft:iron_block"
+      "item": "chemie_mod:silver_ingot"
     },
     "c": {
       "item": "minecraft:redstone"
-    },
-    "d": {
-      "item": "chemie_mod:titan_ingot"
     }
   },
   "result": {
-    "item": "chemie_mod:cokeoven",
+    "item": "chemie_mod:chem_table",
     "count": 1
   }
 }

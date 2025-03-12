@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class ChemTableBlock extends Block {
 	public ChemTableBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
 	}
 
 	@Override

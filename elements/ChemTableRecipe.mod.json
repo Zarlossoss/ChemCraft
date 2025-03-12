@@ -12,22 +12,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:TitanIngot"
       },
       {
-        "value": "Blocks.IRON_BLOCK"
+        "value": "CUSTOM:SilverIngot"
       },
       {
         "value": "Items.REDSTONE"
       },
       {
-        "value": "Blocks.IRON_BLOCK"
+        "value": "CUSTOM:SilverIngot"
       },
       {
         "value": "CUSTOM:TitanIngot"
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cokeoven"
+      "value": "CUSTOM:ChemTable"
     },
-    "name": "cokeovenrecipe",
+    "name": "chem_table_recipe",
     "namespace": "mod"
   }
 }

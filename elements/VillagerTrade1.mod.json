@@ -21,8 +21,8 @@
               "value": "Blocks.EMERALD_BLOCK"
             },
             "countOffer": 3,
-            "level": 1,
-            "maxTrades": 10,
+            "level": 4,
+            "maxTrades": 1,
             "xp": 5,
             "priceMultiplier": 0.05
           }
