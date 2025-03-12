@@ -248,7 +248,7 @@ public class CokeovenguiMenu extends AbstractContainerMenu implements Supplier<M
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
-		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
@@ -274,7 +274,7 @@ public class CokeovenguiMenu extends AbstractContainerMenu implements Supplier<M
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+			CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z);
 		}
 	}
 }
