@@ -17,9 +17,9 @@ public class ChemieModModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == ChemieModModVillagerProfessions.CUSTOM_VILLAGER.get()) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.URAN_INGOT.get()),
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(ChemieModModItems.URAN_INGOT.get()),
 
-					new ItemStack(Blocks.EMERALD_BLOCK, 3), 10, 5, 0.05f));
+					new ItemStack(Blocks.EMERALD_BLOCK, 3), 1, 5, 0.05f));
 		}
 	}
 }
