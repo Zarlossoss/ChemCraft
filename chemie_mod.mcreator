@@ -468,7 +468,7 @@
     {
       "name": "Cokeoven",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cokeoven",
       "metadata": {
