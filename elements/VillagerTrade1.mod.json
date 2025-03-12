@@ -5,7 +5,7 @@
     "tradeEntries": [
       {
         "villagerProfession": {
-          "value": "ARMORER"
+          "value": "CUSTOM:CustomVillager"
         },
         "entries": [
           {
@@ -21,7 +21,7 @@
               "value": "Blocks.EMERALD_BLOCK"
             },
             "countOffer": 3,
-            "level": 4,
+            "level": 1,
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05

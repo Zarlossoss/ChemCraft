@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Custom Villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:Cokeoven"
+    },
+    "actionSound": {
+      "value": "block.furnace.fire_crackle"
+    },
+    "hat": "None",
+    "professionTextureFile": "steve-planetminecraft-com-154917.png",
+    "zombifiedProfessionTextureFile": "steve-planetminecraft-com-154917.png"
+  }
+}
