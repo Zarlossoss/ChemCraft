@@ -560,7 +560,7 @@
     {
       "name": "Cokeovengui",
       "type": "gui",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cokeovengui",
       "metadata": {
