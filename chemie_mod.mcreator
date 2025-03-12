@@ -860,6 +860,19 @@
         "files": []
       },
       "path": "~/Villager"
+    },
+    {
+      "name": "ChemTableUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chem_table_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/client/gui/ChemTableUIScreen.java",
+          "src/main/java/net/mcreator/chemiemod/world/inventory/ChemTableUIMenu.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -917,6 +930,7 @@
       "block.chemie_mod.natrium_ore": "Sodium Ore",
       "painting.chemie_mod.giant_pse.title": "Giant PSE",
       "item.chemie_mod.coke": "Coke",
+      "gui.chemie_mod.chem_table_ui.label_chem_table": "Chem Table",
       "block.chemie_mod.chem_table": "Chem Table",
       "item_group.chemie_mod.chem_craft": "Chem Craft",
       "item.chemie_mod.uranium_super_ingot": "Uranium Super Ingot",
