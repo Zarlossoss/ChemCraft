@@ -788,12 +788,55 @@
           "src/main/resources/assets/chemie_mod/blockstates/chem_table.json"
         ]
       }
+    },
+    {
+      "name": "BariumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/BariumIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/barium_ingot.json"
+        ]
+      },
+      "path": "~/Metalle/Barium"
+    },
+    {
+      "name": "BariumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/barium_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/barium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/barium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/BariumOreBlock.java",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/barium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Barium"
+    },
+    {
+      "name": "CustomVillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_villager",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BariumOre",
       "~CUSTOM:SilverOre",
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
@@ -803,6 +846,7 @@
       "~CUSTOM:UraniumOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BariumOre",
       "~CUSTOM:PotassiumOre",
       "~CUSTOM:SilverOre",
       "~CUSTOM:CalciumOre",
@@ -847,6 +891,7 @@
       "item_group.chemie_mod.chem_craft": "Chem Craft",
       "item.chemie_mod.uranium_super_ingot": "Uranium Super Ingot",
       "block.chemie_mod.cokeoven": "Cokeoven",
+      "block.chemie_mod.barium_ore": "Barium Ore",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
       "item.chemie_mod.calcium_ingot": "Calcium Ingot",
       "painting.chemie_mod.pse.title": "PSE",
@@ -863,7 +908,9 @@
       "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.potassium_ore": "Potassium Ore",
+      "item.chemie_mod.barium_ingot": "Barium Ingot",
       "item.chemie_mod.lithium_ingot": "Lithium Ingot",
+      "entity.minecraft.villager.chemie_mod.custom_villager": "Custom Villager",
       "item.chemie_mod.titansword": "Titansword",
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "painting.chemie_mod.giant_pse.author": "Mendelejew",

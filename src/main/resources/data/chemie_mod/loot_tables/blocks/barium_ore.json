@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "chemie_mod:blocks/barium_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chemie_mod:barium_ingot"
+        }
+      ]
+    }
+  ]
+}

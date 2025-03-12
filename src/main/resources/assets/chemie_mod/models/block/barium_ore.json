@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemie_mod:block/barium_ore",
+    "up": "chemie_mod:block/barium_ore",
+    "north": "chemie_mod:block/barium_ore",
+    "east": "chemie_mod:block/barium_ore",
+    "south": "chemie_mod:block/barium_ore",
+    "west": "chemie_mod:block/barium_ore",
+    "particle": "chemie_mod:block/barium_ore"
+  },
+  "render_type": "solid"
+}
