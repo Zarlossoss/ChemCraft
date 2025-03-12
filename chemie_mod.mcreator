@@ -473,11 +473,12 @@
       "registry_name": "cokeoven",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/block/CokeovenBlock.java",
-          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
-          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json",
           "src/main/resources/data/chemie_mod/loot_tables/blocks/cokeoven.json",
-          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json"
+          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
+          "src/main/java/net/mcreator/chemiemod/block/CokeovenBlock.java",
+          "src/main/java/net/mcreator/chemiemod/block/entity/CokeovenBlockEntity.java",
+          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json"
         ]
       },
       "path": "~/Nichtmetalle/Koks"
