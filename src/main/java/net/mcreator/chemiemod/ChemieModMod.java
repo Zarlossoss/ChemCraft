@@ -17,7 +17,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.chemiemod.init.ChemieModModVillagerProfessions;
 import net.mcreator.chemiemod.init.ChemieModModTabs;
 import net.mcreator.chemiemod.init.ChemieModModPaintings;
 import net.mcreator.chemiemod.init.ChemieModModMenus;
@@ -53,7 +52,6 @@ public class ChemieModMod {
 
 		ChemieModModPaintings.REGISTRY.register(bus);
 
-		ChemieModModVillagerProfessions.PROFESSIONS.register(bus);
 		ChemieModModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init

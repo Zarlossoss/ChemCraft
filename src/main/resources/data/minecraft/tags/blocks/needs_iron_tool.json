@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "chemie_mod:barium_ore",
     "chemie_mod:silver_ore",
     "chemie_mod:magnesium_ore",
     "chemie_mod:titan"
