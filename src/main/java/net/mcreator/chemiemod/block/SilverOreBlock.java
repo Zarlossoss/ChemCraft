@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class SilverOreBlock extends Block {
 	public SilverOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(2.5f, 8f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(2.5f, 8f).requiresCorrectToolForDrops());
 	}
 
 	@Override

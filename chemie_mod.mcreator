@@ -152,13 +152,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/chemie_mod/worldgen/placed_feature/magnesium_ore.json",
-          "src/main/java/net/mcreator/chemiemod/block/MagnesiumOreBlock.java",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/magnesium_ore.json",
-          "src/main/resources/data/chemie_mod/worldgen/configured_feature/magnesium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/item/magnesium_ore.json",
           "src/main/resources/data/chemie_mod/forge/biome_modifier/magnesium_ore_biome_modifier.json",
-          "src/main/resources/assets/chemie_mod/blockstates/magnesium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/block/magnesium_ore.json"
+          "src/main/resources/assets/chemie_mod/models/block/magnesium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/magnesium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/magnesium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/MagnesiumOreBlock.java",
+          "src/main/resources/data/chemie_mod/worldgen/configured_feature/magnesium_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/magnesium_ore.json"
         ]
       },
       "path": "~/Metalle/Magnesium"
@@ -201,12 +201,12 @@
         "files": [
           "src/main/resources/assets/chemie_mod/models/block/natrium_ore.json",
           "src/main/resources/data/chemie_mod/worldgen/configured_feature/natrium_ore.json",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/natrium_ore.json",
-          "src/main/java/net/mcreator/chemiemod/block/NatriumOreBlock.java",
           "src/main/resources/data/chemie_mod/forge/biome_modifier/natrium_ore_biome_modifier.json",
+          "src/main/resources/assets/chemie_mod/models/item/natrium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/NatriumOreBlock.java",
           "src/main/resources/assets/chemie_mod/blockstates/natrium_ore.json",
           "src/main/resources/data/chemie_mod/worldgen/placed_feature/natrium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/item/natrium_ore.json"
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/natrium_ore.json"
         ]
       },
       "path": "~/Metalle/Natrium"
@@ -473,11 +473,11 @@
       "registry_name": "cokeoven",
       "metadata": {
         "files": [
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/cokeoven.json",
-          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
           "src/main/java/net/mcreator/chemiemod/block/CokeovenBlock.java",
-          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json",
-          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json"
+          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json"
         ]
       },
       "path": "~/Nichtmetalle/Koks"
@@ -616,10 +616,10 @@
       "registry_name": "calcium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/calcium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/block/calcium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/item/calcium_ore.json",
           "src/main/java/net/mcreator/chemiemod/block/CalciumOreBlock.java",
+          "src/main/resources/assets/chemie_mod/models/item/calcium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/calcium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/calcium_ore.json",
           "src/main/resources/assets/chemie_mod/blockstates/calcium_ore.json"
         ]
       },
@@ -634,10 +634,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/chemiemod/block/SilverOreBlock.java",
-          "src/main/resources/assets/chemie_mod/blockstates/silver_ore.json",
-          "src/main/resources/assets/chemie_mod/models/block/silver_ore.json",
           "src/main/resources/data/chemie_mod/loot_tables/blocks/silver_ore.json",
-          "src/main/resources/assets/chemie_mod/models/item/silver_ore.json"
+          "src/main/resources/assets/chemie_mod/models/item/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/silver_ore.json"
         ]
       },
       "path": "~/Metalle/Silber"
@@ -650,11 +650,11 @@
       "registry_name": "potassium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/potassium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/potassium_ore.json",
           "src/main/resources/assets/chemie_mod/models/block/potassium_ore.json",
           "src/main/java/net/mcreator/chemiemod/block/PotassiumOreBlock.java",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/potassium_ore.json",
-          "src/main/resources/assets/chemie_mod/blockstates/potassium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/item/potassium_ore.json"
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/potassium_ore.json"
         ]
       },
       "path": "~/Metalle/Kalium"
