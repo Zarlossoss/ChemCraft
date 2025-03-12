@@ -19,12 +19,16 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.chemiemod.world.inventory.CokeovenguiMenu;
+import net.mcreator.chemiemod.procedures.CokeovenOnBlockRightClickedProcedure;
 import net.mcreator.chemiemod.block.entity.CokeovenBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -37,6 +41,15 @@ public class CokeovenBlock extends Block implements EntityBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -55,6 +68,14 @@ public class CokeovenBlock extends Block implements EntityBlock {
 				}
 			}, pos);
 		}
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 

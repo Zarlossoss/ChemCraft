@@ -20,15 +20,15 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class CokeovenOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (new Object() {
-			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
-				AtomicInteger _retval = new AtomicInteger(0);
+		if ((new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getAmount(world, BlockPos.containing(x, y, z), 3) < 64 && (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == Items.COAL && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
