@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 176,
+    "width": 179,
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -15,7 +15,7 @@
         "data": {
           "name": "label_coke_oven",
           "text": {
-            "fixedValue": "Coke oven"
+            "fixedValue": "Coke Oven"
           },
           "color": {
             "value": -12829636,
@@ -106,6 +106,54 @@
           "dropItemsWhenNotBound": true,
           "x": 139,
           "y": 77,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coal",
+          "text": {
+            "fixedValue": "Coal"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "}"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "}"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 81,
           "locked": false
         }
       }
