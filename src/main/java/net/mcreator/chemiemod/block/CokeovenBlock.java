@@ -64,7 +64,7 @@ public class CokeovenBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z);
+		CokeovenOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 
