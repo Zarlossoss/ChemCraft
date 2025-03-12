@@ -473,12 +473,12 @@
       "registry_name": "cokeoven",
       "metadata": {
         "files": [
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
           "src/main/java/net/mcreator/chemiemod/block/CokeovenBlock.java",
           "src/main/java/net/mcreator/chemiemod/block/entity/CokeovenBlockEntity.java",
-          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
-          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/cokeoven.json",
-          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json"
+          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json"
         ]
       },
       "path": "~/Nichtmetalle/Koks"
@@ -714,10 +714,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -912,7 +908,7 @@
       "item.chemie_mod.barium_ingot": "Barium Ingot",
       "item.chemie_mod.lithium_ingot": "Lithium Ingot",
       "gui.chemie_mod.cokeovengui.label_empty": "}",
-      "entity.minecraft.villager.chemie_mod.custom_villager": "Custom Villager",
+      "entity.minecraft.villager.chemie_mod.custom_villager": "Chemic",
       "item.chemie_mod.titansword": "Titansword",
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "gui.chemie_mod.cokeovengui.label_empty1": "}",
