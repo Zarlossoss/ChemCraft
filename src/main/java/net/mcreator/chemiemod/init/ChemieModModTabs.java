@@ -50,5 +50,7 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModItems.POTASSIUM_INGOT.get());
 				tabData.accept(ChemieModModItems.CALCIUM_INGOT.get());
 				tabData.accept(ChemieModModItems.SILVER_INGOT.get());
+				tabData.accept(ChemieModModItems.BARIUM_INGOT.get());
+				tabData.accept(ChemieModModBlocks.BARIUM_ORE.get().asItem());
 			}).build());
 }

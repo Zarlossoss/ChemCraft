@@ -109,11 +109,9 @@ public class CokeovenBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
-		if (index == 0)
+		if (index == 3)
 			return false;
-		if (index == 1)
-			return false;
-		if (index == 2)
+		if (index == 4)
 			return false;
 		return true;
 	}
@@ -130,10 +128,6 @@ public class CokeovenBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
-		if (index == 3)
-			return false;
-		if (index == 4)
-			return false;
 		return true;
 	}
 
