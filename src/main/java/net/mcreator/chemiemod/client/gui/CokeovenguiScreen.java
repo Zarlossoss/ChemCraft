@@ -60,7 +60,7 @@ public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> 
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.chemie_mod.cokeovengui.label_coke_oven"), 8, 7, -13421773, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.chemie_mod.cokeovengui.label_coke_oven"), 8, 7, -12829636, false);
 	}
 
 	@Override
