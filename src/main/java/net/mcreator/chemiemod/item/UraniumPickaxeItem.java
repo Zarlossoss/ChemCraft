@@ -18,7 +18,7 @@ public class UraniumPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 50f;
+				return 25f;
 			}
 
 			public float getAttackDamageBonus() {

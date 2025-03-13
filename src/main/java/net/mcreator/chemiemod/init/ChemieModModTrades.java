@@ -21,13 +21,9 @@ public class ChemieModModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.URAN_INGOT.get()),
 
 					new ItemStack(Blocks.EMERALD_BLOCK, 3), 1, 5, 0.05f));
-		}
-		if (event.getType() == ChemieModModVillagerProfessions.CUSTOM_VILLAGER.get()) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.TITAN_INGOT.get(), 16),
 
 					new ItemStack(ChemieModModBlocks.COKEOVEN.get()), 10, 5, 0.05f));
-		}
-		if (event.getType() == ChemieModModVillagerProfessions.CUSTOM_VILLAGER.get()) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.COAL, 16),
 
 					new ItemStack(ChemieModModItems.COKE.get(), 8), 10, 5, 0.05f));

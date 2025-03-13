@@ -840,28 +840,6 @@
       }
     },
     {
-      "name": "VillagerTradeCokeoven",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "villager_trade_cokeoven",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Villager"
-    },
-    {
-      "name": "VillagerTradeCoke",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "villager_trade_coke",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Villager"
-    },
-    {
       "name": "ChemTableUI",
       "type": "gui",
       "compiles": true,

@@ -17,7 +17,7 @@
         "value": "CUSTOM:ChemCraft"
       }
     ],
-    "efficiency": 50.0,
+    "efficiency": 25.0,
     "attackSpeed": 5.0,
     "enchantability": 5,
     "damageVsEntity": 1.0,
