@@ -73,7 +73,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 274,
-          "y": 72,
+          "y": 59,
           "locked": false
         }
       },
@@ -87,6 +87,23 @@
           "height": 20,
           "x": 164,
           "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 274,
+          "y": 85,
           "locked": false
         }
       }
