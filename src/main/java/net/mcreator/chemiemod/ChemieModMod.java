@@ -22,6 +22,8 @@ import net.mcreator.chemiemod.init.ChemieModModTabs;
 import net.mcreator.chemiemod.init.ChemieModModPaintings;
 import net.mcreator.chemiemod.init.ChemieModModMenus;
 import net.mcreator.chemiemod.init.ChemieModModItems;
+import net.mcreator.chemiemod.init.ChemieModModFluids;
+import net.mcreator.chemiemod.init.ChemieModModFluidTypes;
 import net.mcreator.chemiemod.init.ChemieModModBlocks;
 import net.mcreator.chemiemod.init.ChemieModModBlockEntities;
 
@@ -55,6 +57,8 @@ public class ChemieModMod {
 
 		ChemieModModVillagerProfessions.PROFESSIONS.register(bus);
 		ChemieModModMenus.REGISTRY.register(bus);
+		ChemieModModFluids.REGISTRY.register(bus);
+		ChemieModModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

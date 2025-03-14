@@ -1,4 +1,5 @@
 {
+  "item.chemie_mod.hydrochloric_acid_bucket": "Hydrochloric Acid Bucket",
   "gui.chemie_mod.chem_table_ui.button_start_reaction": "Start Reaction",
   "item.chemie_mod.titan_shovel": "Titan Shovel",
   "death.attack.acidburn": "%1$s was dissolved in acid :)",
@@ -23,9 +24,11 @@
   "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
   "item.chemie_mod.gasbottle": "Gas bottle",
   "item.chemie_mod.uranium_pickaxe": "Uranium Pickaxe",
+  "block.chemie_mod.hydrochloric_acid": "Hydrochloric Acid",
   "item.chemie_mod.natrium_ingot": " Sodium Chloride",
   "item.chemie_mod.goutgas": "Goutgas",
   "block.chemie_mod.silver_ore": "Silver Ore",
+  "fluid.chemie_mod.hydrochloric_acid": "Hydrochloric Acid",
   "block.chemie_mod.uranium_ore": "Uranium Ore",
   "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
   "block.chemie_mod.potassium_ore": "Potassium Ore",

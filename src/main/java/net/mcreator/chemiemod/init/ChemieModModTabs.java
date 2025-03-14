@@ -53,5 +53,6 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModBlocks.CHEM_TABLE.get().asItem());
 				tabData.accept(ChemieModModItems.BARIUM_INGOT.get());
 				tabData.accept(ChemieModModBlocks.BARIUM_ORE.get().asItem());
+				tabData.accept(ChemieModModItems.HYDROCHLORIC_ACID_BUCKET.get());
 			}).build());
 }

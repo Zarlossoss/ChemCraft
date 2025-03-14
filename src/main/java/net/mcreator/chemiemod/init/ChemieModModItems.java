@@ -27,6 +27,7 @@ import net.mcreator.chemiemod.item.PotassiumIngotItem;
 import net.mcreator.chemiemod.item.NatriumIngotItem;
 import net.mcreator.chemiemod.item.MagnisumIngotItem;
 import net.mcreator.chemiemod.item.LithiumIngotItem;
+import net.mcreator.chemiemod.item.HydrochloricAcidItem;
 import net.mcreator.chemiemod.item.GoutgasItem;
 import net.mcreator.chemiemod.item.GasbottleItem;
 import net.mcreator.chemiemod.item.CokeItem;
@@ -70,6 +71,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> CHEM_TABLE = block(ChemieModModBlocks.CHEM_TABLE);
 	public static final RegistryObject<Item> BARIUM_INGOT = REGISTRY.register("barium_ingot", () -> new BariumIngotItem());
 	public static final RegistryObject<Item> BARIUM_ORE = block(ChemieModModBlocks.BARIUM_ORE);
+	public static final RegistryObject<Item> HYDROCHLORIC_ACID_BUCKET = REGISTRY.register("hydrochloric_acid_bucket", () -> new HydrochloricAcidItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -868,6 +868,25 @@
         "dependencies": []
       },
       "path": "~/ChemTable"
+    },
+    {
+      "name": "HydrochloricAcid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrochloric_acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/HydrochloricAcidItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/hydrochloric_acid_bucket.json",
+          "src/main/resources/assets/chemie_mod/models/block/hydrochloric_acid.json",
+          "src/main/java/net/mcreator/chemiemod/fluid/types/HydrochloricAcidFluidType.java",
+          "src/main/resources/assets/chemie_mod/blockstates/hydrochloric_acid.json",
+          "src/main/java/net/mcreator/chemiemod/fluid/HydrochloricAcidFluid.java",
+          "src/main/java/net/mcreator/chemiemod/block/HydrochloricAcidBlock.java"
+        ]
+      },
+      "path": "~/Acid/HCl"
     }
   ],
   "variable_elements": [],
@@ -882,6 +901,9 @@
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:LithiumOre",
       "~CUSTOM:UraniumOre"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:HydrochloricAcid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:BariumOre",
@@ -919,6 +941,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.chemie_mod.hydrochloric_acid_bucket": "Hydrochloric Acid Bucket",
       "gui.chemie_mod.chem_table_ui.button_start_reaction": "Start Reaction",
       "item.chemie_mod.titan_shovel": "Titan Shovel",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
@@ -943,9 +966,11 @@
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
       "item.chemie_mod.gasbottle": "Gas bottle",
       "item.chemie_mod.uranium_pickaxe": "Uranium Pickaxe",
+      "block.chemie_mod.hydrochloric_acid": "Hydrochloric Acid",
       "item.chemie_mod.natrium_ingot": " Sodium Chloride",
       "item.chemie_mod.goutgas": "Goutgas",
       "block.chemie_mod.silver_ore": "Silver Ore",
+      "fluid.chemie_mod.hydrochloric_acid": "Hydrochloric Acid",
       "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.potassium_ore": "Potassium Ore",
