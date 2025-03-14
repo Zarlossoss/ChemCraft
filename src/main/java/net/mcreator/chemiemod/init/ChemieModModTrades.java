@@ -34,6 +34,9 @@ public class ChemieModModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.SILVER_INGOT.get(), 10),
 
 					new ItemStack(ChemieModModItems.POTASSIUM_INGOT.get(), 2), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 10),
+
+					new ItemStack(ChemieModModItems.LITHIUM_INGOT.get()), 10, 5, 0.05f));
 		}
 	}
 }
