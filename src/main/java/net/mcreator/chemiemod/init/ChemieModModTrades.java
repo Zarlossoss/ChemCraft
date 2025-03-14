@@ -18,7 +18,7 @@ public class ChemieModModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == ChemieModModVillagerProfessions.CUSTOM_VILLAGER.get()) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.URAN_INGOT.get()),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.URANIUM_SUPER_INGOT.get()),
 
 					new ItemStack(Blocks.EMERALD_BLOCK, 3), 1, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.TITAN_INGOT.get(), 16),
@@ -28,6 +28,12 @@ public class ChemieModModTrades {
 
 					new ItemStack(ChemieModModItems.COKE.get(), 8), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.GASBOTTLE.get()), new ItemStack(Items.COAL), new ItemStack(ChemieModModItems.GOUTGAS.get()), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 10),
+
+					new ItemStack(ChemieModModItems.MAGNISUM_INGOT.get()), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.SILVER_INGOT.get(), 10),
+
+					new ItemStack(ChemieModModItems.POTASSIUM_INGOT.get(), 2), 10, 5, 0.05f));
 		}
 	}
 }
