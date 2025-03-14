@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chemie_mod:item/gout_gas"
+    "layer0": "chemie_mod:item/gas_bottle"
   }
 }

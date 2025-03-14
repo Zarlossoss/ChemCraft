@@ -27,6 +27,7 @@ public class ChemieModModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.COAL, 16),
 
 					new ItemStack(ChemieModModItems.COKE.get(), 8), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ChemieModModItems.GASBOTTLE.get()), new ItemStack(Items.COAL), new ItemStack(ChemieModModItems.GOUTGAS.get()), 10, 5, 0.05f));
 		}
 	}
 }

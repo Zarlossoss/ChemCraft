@@ -6,6 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.chemiemod.world.inventory.ChemTableUIMenu;
@@ -19,6 +20,7 @@ public class ChemTableUIScreen extends AbstractContainerScreen<ChemTableUIMenu> 
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_start_reaction;
 
 	public ChemTableUIScreen(ChemTableUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -66,5 +68,9 @@ public class ChemTableUIScreen extends AbstractContainerScreen<ChemTableUIMenu> 
 	@Override
 	public void init() {
 		super.init();
+		button_start_reaction = Button.builder(Component.translatable("gui.chemie_mod.chem_table_ui.button_start_reaction"), e -> {
+		}).bounds(this.leftPos + 38, this.topPos + 34, 98, 20).build();
+		guistate.put("button:button_start_reaction", button_start_reaction);
+		this.addRenderableWidget(button_start_reaction);
 	}
 }

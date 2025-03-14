@@ -1,4 +1,5 @@
 {
+  "gui.chemie_mod.chem_table_ui.button_start_reaction": "Start Reaction",
   "item.chemie_mod.titan_shovel": "Titan Shovel",
   "death.attack.acidburn": "%1$s was dissolved in acid :)",
   "item.chemie_mod.potassium_ingot": "Potassium Ingot",

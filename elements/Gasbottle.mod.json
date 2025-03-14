@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "gout_gas",
+    "texture": "gas_bottle",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

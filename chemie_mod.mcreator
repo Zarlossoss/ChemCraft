@@ -783,7 +783,8 @@
           "src/main/java/net/mcreator/chemiemod/block/ChemTableBlock.java",
           "src/main/resources/assets/chemie_mod/blockstates/chem_table.json"
         ]
-      }
+      },
+      "path": "~/ChemTable"
     },
     {
       "name": "BariumIngot",
@@ -837,7 +838,8 @@
         "files": [
           "src/main/resources/data/chemie_mod/recipes/chem_table_recipe.json"
         ]
-      }
+      },
+      "path": "~/ChemTable"
     },
     {
       "name": "ChemTableUI",
@@ -850,7 +852,22 @@
           "src/main/java/net/mcreator/chemiemod/client/gui/ChemTableUIScreen.java",
           "src/main/java/net/mcreator/chemiemod/world/inventory/ChemTableUIMenu.java"
         ]
-      }
+      },
+      "path": "~/ChemTable"
+    },
+    {
+      "name": "ChemTableProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chem_table_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/procedures/ChemTableProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ChemTable"
     }
   ],
   "variable_elements": [],
@@ -902,6 +919,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "gui.chemie_mod.chem_table_ui.button_start_reaction": "Start Reaction",
       "item.chemie_mod.titan_shovel": "Titan Shovel",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
       "item.chemie_mod.potassium_ingot": "Potassium Ingot",
@@ -1015,6 +1033,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "ChemTable",
+        "children": []
       }
     ]
   },
@@ -1022,7 +1044,7 @@
     "modid": "chemie_mod",
     "modName": "CemCraft",
     "version": "1.0.0",
-    "author": "carlp, MCreator",
+    "author": "Zarlossoss, ThePlaqueDoc, Olaf",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
