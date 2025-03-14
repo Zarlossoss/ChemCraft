@@ -1037,6 +1037,23 @@
       {
         "name": "ChemTable",
         "children": []
+      },
+      {
+        "name": "Acid",
+        "children": [
+          {
+            "name": "HCl",
+            "children": []
+          },
+          {
+            "name": "H2SO4",
+            "children": []
+          },
+          {
+            "name": "HNO3",
+            "children": []
+          }
+        ]
       }
     ]
   },
