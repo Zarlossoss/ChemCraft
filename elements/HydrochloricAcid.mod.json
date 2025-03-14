@@ -5,7 +5,7 @@
     "name": "Hydrochloric Acid",
     "bucketName": "Hydrochloric Acid Bucket",
     "textureStill": "hcl_fluid",
-    "textureFlowing": "hcl_flowing",
+    "textureFlowing": "hcl_fluid_flowing",
     "textureRenderOverlay": "",
     "hasFog": false,
     "fogStartDistance": {

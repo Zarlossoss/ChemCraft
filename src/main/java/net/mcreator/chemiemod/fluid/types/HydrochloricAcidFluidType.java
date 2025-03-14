@@ -20,7 +20,7 @@ public class HydrochloricAcidFluidType extends FluidType {
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
 			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("chemie_mod:block/hcl_fluid");
-			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("chemie_mod:block/hcl_flowing");
+			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("chemie_mod:block/hcl_fluid_flowing");
 
 			@Override
 			public ResourceLocation getStillTexture() {
